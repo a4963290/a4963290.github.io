@@ -52,8 +52,8 @@
 /*轮播图*/
 .g-banner{position: relative;}
 .banner-overfl{overflow: hidden;}
-.ban-picBox,.g-banner img{width: 1616px;height: 462px;}
-.g-banner li{position: absolute;left: 0;}
+.ban-picBox,.g-banner img{width: 1616px;height: 462px;margin:0 auto;}
+.g-banner li{position: absolute;}
 .imgNum{position: absolute;left: 50%;bottom: 20px;margin-left:-30px;}
 .imgNum span{display: inline-block;width: 10px;height: 10px;margin:0 5px;border-radius:50%;background-color: #fff;}
 .imgNum .active{background-color: #333;}
@@ -70,7 +70,7 @@
 .pdB{background: url("../image/icon.png") no-repeat -100px -44px;}
 .pdC{background: url("../image/icon.png") no-repeat -200px -44px;}
 .work-env{overflow: hidden;}
-.work-picBox{width: 1616px;}
+.work-picBox{width: 1616px;margin:0 auto;}
 /*主内容区*/
 .g-main{height: 1378px;padding-top:86px;padding-bottom: 86px;background-color: #f8f8f8;}
 .g-main .cous{width: 980px;}

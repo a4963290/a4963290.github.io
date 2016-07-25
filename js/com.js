@@ -197,7 +197,6 @@ function ajax(url,method,success,data){
                 success(xhr);
             }else{
                 console.log(xhr.status);
-                alert("Requesurl was unsuccessful" + xhr.status);
             }
         }
     };
@@ -214,7 +213,7 @@ function login(){
     var login_btn = document.getElementsByClassName("login-btn")[0];
     var lgn = document.getElementsByClassName("login")[0];
     var remove = document.getElementsByClassName('remove-define')[0];
-    var url ='http://www.xianyu.io:8089/webDev/login.htm?';
+    var url ='http://study.163.com/webDev/login.htm?';
 
     //关注后存储cookie;改变关注按钮样式;
     function follow(){
@@ -380,7 +379,7 @@ function couse(){
         var description = document.getElementsByClassName('description');
         var cous_link = document.getElementsByClassName('cous-ctain');
         var big_link = document.getElementsByClassName('big-ctain');
-        ajax('http://www.xianyu.io:8089/webDev/couresByCategory.htm?','GET',corseSuc,obj);
+        ajax('http://study.163.com/webDev/couresByCategory.htm?','GET',corseSuc,obj);
         /**
          *
          * @param xhr
@@ -427,7 +426,7 @@ couse();
 
 
 //热门排行
-ajax('http://www.xianyu.io:8089/webDev/hotcouresByCategory.htm','GET',rankSuc,'');
+ajax('http://study.163.com/webDev/hotcouresByCategory.htm','GET',rankSuc,'');
 function rankSuc(xhr){
     var data = JSON.parse(xhr.responseText);
     console.log(data);
