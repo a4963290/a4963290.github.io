@@ -1,0 +1,22 @@
+@charset "utf-8";
+/*css Document*/
+body,ul,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin: 0;padding: 0;}
+body{
+    font-size: 12px;
+    font-family: Helvetica, Arial, "Microsoft YaHei", "SimSun", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+}
+img{border: none;}
+li{list-style: none;}
+input,select,textarea{resize: none;border: none;background: none;}
+a{text-decoration: none;color: #666;}
+/*清除浮动*/
+.clearfix:after{content: "";display: block;clear: both;}
+.clearfix{zoom: 1;}
+
+/*公用*/
+.comWidth{
+    width: 1206px;margin: 0 auto;
+}
+.fl{float: left;}
+.fr{float: right;}
+.never-nts,.follow-btn,.search,.ban-pic,span,i,.mov img{cursor:pointer;}
